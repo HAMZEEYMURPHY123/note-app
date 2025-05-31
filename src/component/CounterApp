@@ -1,0 +1,9 @@
+export default function CounterApp() {
+ return (
+  <div>
+   <form>
+    <input type="text" placeholder="note something down" />
+   </form>
+  </div>
+ );
+}
