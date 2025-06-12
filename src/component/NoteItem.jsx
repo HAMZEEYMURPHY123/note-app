@@ -3,7 +3,6 @@ export default function NoteItem({ item, notes, setNotes }) {
  function handleDelete(item) {
   setNotes(notes.filter((note) => note !== item));
  }
- function handleEdit(item) {}
 
  return (
   <div>
